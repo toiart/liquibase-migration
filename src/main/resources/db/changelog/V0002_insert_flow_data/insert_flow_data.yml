@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: V0002_insert_flow_data
+      author: Art
+      comment: insert data
+      changes:
+        - sqlFile:
+            dbms: postgresql
+            path: flow_data.sql
+            relativeToChangelogFile: true

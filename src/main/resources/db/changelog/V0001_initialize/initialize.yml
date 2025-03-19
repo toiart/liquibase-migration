@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: V0001_initialize
+      author: Art
+      comment: initiate table
+      changes:
+        - sqlFile:
+            dbms: postgresql
+            path: initialize_tables.sql
+            relativeToChangelogFile: true

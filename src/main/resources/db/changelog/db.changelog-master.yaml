@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: V0001_initialize/initialize.yml
+      relativeToChangelogFile: true
+  - include:
+      file: V0002_insert_flow_data/insert_flow_data.yml
+      relativeToChangelogFile: true
